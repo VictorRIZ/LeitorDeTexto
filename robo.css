@@ -1,0 +1,16 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.8.10/tailwind.min.css";
+body{text-align: center;}
+h1{font-size: 50px; font-style: italic;}
+div{margin: 4%; border: 2px solid gray; padding: 145px 200px; }
+button{background: whitesmoke; transition: 0.5s; padding: 25px 50px;
+border-radius: 10px;}
+.escute:hover{background: rgb(13, 146, 13); transition: 0.5s;}
+.pare:hover{background: rgb(187, 3, 3); transition: 0.5s;}
+.reniciar:hover{background: rgb(0, 18, 180); transition: 0.5s;}
+.reset{transition-delay: 0.5s;}
+/*Responsividade*/
+@media(min-width: 320px){
+    body{font-size: 90%;}
+    button{padding: 20px 40px;}
+    div{padding: 110px 150px;}
+}
