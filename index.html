@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="robo.css">
+    <title>Leitor de texto</title>
+</head>
+<body>
+    <h1>
+    Digite qualquer coisa no espaço abaixo.
+    </h1>
+    <div class="texto" contenteditable oninput="setText(event)"></div>
+    <button class="escute" onclick="speak()" class=>Escutar</button>
+    <button class="pare" onclick="stop()" class=>Parar</button>
+    <button class="reniciar" onclick="reset()" class=>Reniciar</button>
+    <script src="robo.js"></script>
+</body>
+</html>
